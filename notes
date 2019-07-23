@@ -1,0 +1,95 @@
+Actions on Google 
+July 21
+
+useful as it is a part of GA
+No extra space
+GA store
+Various uses
+Most used gifte by google
+
+npm install -g firebase-tools
+
+dialogflow or action SDK
+
+incognito
+log in only by 1 account
+https://console.actions.google.com/?pli=1
+
+games and fun > conversational
+overview page 
+follow the steps 
+invocation
+save
+overview
+
+intents
+to create new intent
+edit repsonses in default welcome
+
+creat your intent
+make entities
+in training phrases type possible sentence with words in entities
+in actions and parameters check all entities you need to be analyszed 
+
+responses- how GA greets
+training phrases - things user can say
+entity understood from training phrases
+can make our own entities
+different intents for various actions to be executed
+enable fulfilment
+
+create and open folder
+select url of the folder and type cmd + enter
+
+in cmd that opens
+firebase init  (firebase is created and all with functions)
+ select function with arrows and space bar to select
+ then enter ... all your projects will be displayed
+ select the one you want and enter and proceed accordingly
+
+ cd functions on cmd
+ go to the folder created
+ open functions
+ open "index" on text editor
+ write code/ copied from codelabs-1  step 6
+ https://codelabs.developers.google.com/codelabs/actions-1/#5
+
+ conv.close when GA  talks
+ conv.ask when GA asks
+
+
+ open package.json
+ add following in dependencies
+ "actions-on-google":"^2.6.0",
+ then save
+
+ in cmd of folder
+
+ install npm
+
+cd.. -- comes back to folder cmd
+
+firebase deploy
+
+note: function command should'nt be repeated twice / only once
+
+copy the project console link and paste on the incognito window
+go to function 
+then you will see a link
+go to dialogflow > fulfilment 
+enable WEBHOOK and paste the URL
+
+screen opens
+
+console> deploy
+
+make privacy policy and paste URL
+sites.google.com
+
+settings>> import from zip file
+
+
+flow of conversation. Keep user engaged
+
+NLP
+
